@@ -7,7 +7,7 @@ namespace R5T.L0076.Construction
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Demonstrations.Instance.Create_ProjectFile();
         }
     }
 }

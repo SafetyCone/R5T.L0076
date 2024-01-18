@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Version>1.0.0</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <NoWarn>1591</NoWarn>
+    <NoWarn>1587;1591</NoWarn>
     <Authors>DCoats</Authors>
     <Company>Rivet</Company>
     <Copyright>Copyright (c) Rivet 2024</Copyright>
@@ -15,5 +15,8 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\R5T.L0076\R5T.L0076.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0141\source\R5T.T0141\R5T.T0141.csproj" />
+    <ProjectReference Include="..\..\..\R5T.L0055\source\R5T.L0055\R5T.L0055.csproj" />
+    <ProjectReference Include="..\..\..\R5T.O0029\source\R5T.O0029\R5T.O0029.csproj" />
   </ItemGroup>
 </Project>
